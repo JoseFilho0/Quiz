@@ -51,7 +51,7 @@ function finishQuiz() {
     let scoreText1 = document.querySelector('.scoreText1');
     let scorePct = document.querySelector('.scorePct');
 
-    if(points <= 3) {
+    if(points < 30) {
         scoreText1.innerHTML = 'Ruim'
         scorePct.style.color = '#FF0000'
     }
